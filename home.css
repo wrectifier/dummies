@@ -1,0 +1,119 @@
+.hero{
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    padding-top: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.header-item{
+    margin-right: 3rem;
+}
+.header-item a{
+    text-decoration: none;
+    color: white;
+}
+.header-item a:hover{
+    border-bottom: 2px solid red;
+
+}
+.main-hero{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-hero h1,h2{
+    text-align: center;
+    color: white;
+}
+.main-hero h1{
+    margin-top: 4rem;
+}
+.main-hero p{
+    margin-top: 2rem;
+    color: rgb(113, 112, 112);
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+.btn{
+    margin-bottom: 3rem;
+}
+.card h2{
+    font-size: x-large!important;
+}
+
+.features{
+    padding: 4rem 0 4rem 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(35, 35, 35);
+}
+
+.features h6{
+    color: white;
+    font-weight: 400;
+    padding: 0 0.9rem;
+
+}
+.features h2{
+    padding-top: 1rem;
+    font-size: 3.6rem;
+
+}
+.features h3, h2{
+    color: rgb(47, 238, 251);
+    font-weight: 400;
+    
+
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+}
+.details{
+    padding-top: 1.5rem;
+}
+.coins img{
+    margin-left: 0.6rem;
+
+}
+.coin-label{
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.plans{
+    display: flex;
+    flex-direction: column;
+}
+.plan{
+    padding: 1.4rem 1rem 0 1rem;
+    border: 1px solid black;
+    margin-bottom: 0.65rem;
+}
+
+.link-btn{
+    text-decoration: none;
+    color: rgb(255, 1, 73);
+}
+.link-btn:hover{
+    color: rgb(47, 1, 14);
+}

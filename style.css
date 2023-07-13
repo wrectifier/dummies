@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+body{
+  font-family: 'Dosis', sans-serif;
+  background-color: #ecf0f1!important;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.thumbnail{
+  margin: 1em 0;
+  width: 80%;
+  display: block;
+
+}
+.verify{
+  padding-top: 1em;
+  background-color: #fff;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.continue{
+  outline: none;
+  border: none;
+  background-color: #ca4c3e;
+  border-radius: 1em;
+  padding: .5em 1em;
+  text-transform: uppercase;
+  margin-top: 1.2em;
+  color: #fff;
+  font-weight: bold;
+
+}
+.recap{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+  background-color: #fff;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+}
+.counter_text{
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+  background-color: #e74c3c;
+  width:80vw;
+  height: 3em;
+  /* padding-top: .8em; */
+}
+a{
+  text-decoration: none!important;
+  color: #ca4c3e!important;
+}
+.nav_bar li a,.nav_bar li  a:visited{
+  text-decoration: none!important;
+  color: #fff!important;
+}
+/* li{
+  height: 2rem;
+} */
+.nav_bar li:hover{
+  background-color: #ca4c3e!important;
+  /* padding-bottom: 1em;
+  padding: 0 1em; */
+  /* padding: .2em 0; */
+}
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* gap: 2em; */
+}
+.nav_bar li{
+  display: block;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  padding: .5em 2em;
+  /* background-color: #ca4c3e; */
+}
+/* .nav_bar li:first-child{
+  padding-left: 0;
+} */
+.box{
+  padding-top: .6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Dosis', sans-serif;
+  background-color: #fff!important;
+  gap: 2vw!important;
+}
+#submit, #dl_btn{
+  outline: none;
+  border: none;
+  background-color: #ca4c3e;
+  border-radius: 1em;
+  padding: .5em 1em;
+  text-transform: uppercase;
+  /* margin-top: 1.2em; */
+  color: #fff!important;
+  font-weight: bold;
+}
+.hide_item{
+  display: none;
+}
+.show{
+  display: block;
+}
+.posts{
+  width:59vw;
+  text-align: left;
+  padding-right: 1em;
+}
+.post_body{
+  padding: 1em;
+}
+.ads{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.post_details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:59vw;
+  text-align: left;
+  padding: 1em 2em;
+}
+/* .title{
+  text-align: center;
+} */
+.sidebar{
+  width: 19vw;
+  /* text-align: left!important; */
+  /* border: 1rem solid red; */
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.post{
+  padding-left: .7em;
+  display: flex;
+  flex-direction: row;
+  margin: 2rem 0 2rem 0;
+  /* justify-content: center; */
+  /* align-items: right; */
+  margin-right: 2rem;
+
+}
+.data{
+  margin-left: 1rem;
+}
+.data h2{
+  font-size: 1.3em;
+  margin-bottom: .2em !important;
+  font-weight: bold;
+}
+.recent{
+  text-align: left!important;
+  margin-bottom: .5rem !important;
+}
+.author{
+  font-size: .8em;
+  color: rgb(173, 173, 173);
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.f0{
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+}
+.f1{
+  width: 80vw;
+  height: 3rem;
+  background-color: #3d566e;
+}
+.f2{
+  padding-top: 1em;
+  width: 80vw;
+  height: 5rem;
+  background-color: #2c3e50;
+  text-align: center;
+  color:#fff;
+  /* margin-bottom: 1rem; */
+}
+.foot_text{
+  font-size: 1em;
+}
+.dropdown-toggle::after {
+    display: none;
+  }
+.text-decoration-none{
+  text-decoration: none!important;
+}
+/* Font Awesome Icons have variable width. Added fixed width to fix that.*/
+.icon-width { width: 2rem;}
+.navigration{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 10vw;
+}
+.nav_btn{
+  display: block;
+  
+}
+.nav_btn a{
+  background-color: #ca4c3e!important;
+  color: #fff!important;
+  font-family: 'Dosis', sans-serif;
+  padding: .25em 1em!important;
+  text-transform: uppercase;
+  border-radius: 1em;
+
+
+}
+/* nav, .nav_bar,.logo{
+  display: block!important;
+} */
+@media only screen and (max-width: 479px){
+  body{
+    background-color: #fff!important;
+    position: absolute;
+  }
+  .nav_bar li{
+    display: block;
+    font-size: 1em;
+    text-transform: uppercase;
+    /* padding: .5em 2em; */
+    /* background-color: #ca4c3e; */
+  }
+  .box{
+    padding-top: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Dosis', sans-serif;
+  }
+  #expand_box{
+    position: absolute;
+    top: 57px;;
+    left: 9px;
+
+  }
+  .toggle{
+    margin-left:.53em;
+  }
+  #expand_menu{
+    background-color: #3d566e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 5em;
+    gap: .5em;
+    border-radius: .5em;
+    font-family: 'Dosis', sans-serif;
+
+  }
+  #expand_menu li a{
+    color: #ffffff!important;
+    /* background-color: #ecf0f1; */
+    padding: 0.2em 2em;
+  }
+  
+  #expand_menu li:hover{
+    background-color: #ca4c3e!important;
+    /* padding: 0.2em 2em; */
+    border-radius: 1em;
+  }
+  .summary{
+    font-size: .8em;
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+
+  }
+  .data h2{
+    font-size: 1em;
+    margin-bottom: .2em !important;
+    font-weight: bold;
+  }
+  .posts{
+    width: 90vw;
+    text-align: left;
+  }
+  .sidebar{
+    width: 90vw;
+    /* text-align: left!important; */
+    /* border: 1rem solid red; */
+    text-align: center;
+  }
+  nav{
+    width: 90vw;
+    height: 2.4em;
+  }
+  .nav_bar li{
+    font-size: .9em;
+    text-transform: uppercase;
+    padding: .4em .9em;
+    /* background-color: #ca4c3e; */
+  }
+  .post{
+    margin-right: 0!important;
+  }
+  .recent{
+    margin-left: 1em;
+  }
+  .f0, .f1, .f2{
+    width: 100vw;
+  }
+  .post_details{
+    width: 95vw;
+    padding: 0 1em;
+  }
+  .counter_text{
+    font-size: 1.2rem;
+  }
+  .mbl_logo{
+    display:block;
+  }
+  #navbar_mbl{
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    position: fixed;
+    top: .5em;
+    left: .5em;
+    /*
+    justify-content:space-between;
+    align-items: center;
+    background-color: #ca4c3e52; */
+    /* width: 90vw; */
+    /* height: 2em; */
+  }
+  #toggle{
+    padding: .8em;
+    /* padding-top: .5em; */
+    border: .1em solid rgb(99, 99, 99);
+    border-radius: .5em;
+    margin-right: 30vw;
+    margin-top:.53em;
+    font-size: .8em;
+  }
+  nav, .nav_bar,.logo{
+    display: none!important;
+  }
+}
